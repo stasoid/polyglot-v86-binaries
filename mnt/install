@@ -1,7 +1,7 @@
 cd /mnt
-ln -s libm-2.22.so /usr/lib/libm.so.6
-ln -s libdl-2.22.so /usr/lib/libdl.so.2
-ln -s libc-2.22.so /usr/lib/libc.so.6
-ln -s ld-2.22.so /lib/ld-linux.so.2
+cp libm-2.22.so /usr/lib/libm.so.6
+cp libdl-2.22.so /usr/lib/libdl.so.2
+cp libc-2.22.so /usr/lib/libc.so.6
+cp ld-2.22.so /lib/ld-linux.so.2
 chmod +x /lib/ld-linux.so.2 picolisp
 echo "(prinl 45)(bye)" > f
