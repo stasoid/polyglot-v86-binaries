@@ -4,3 +4,5 @@ cp libdl-2.22.so /usr/lib/libdl.so.2
 cp libc-2.22.so /usr/lib/libc.so.6
 cp ld-2.22.so /lib/ld-linux.so.2
 chmod +x /lib/ld-linux.so.2 picolisp
+
+echo install finished
